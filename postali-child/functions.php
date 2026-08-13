@@ -13,7 +13,6 @@
     require_once dirname( __FILE__ ) . '/includes/media-mentions-cpt.php'; // Custom Post Type Media Mentions
     require_once dirname( __FILE__ ) . '/includes/job-postings-cpt.php'; // Custom Post Type Media Mentions
 	require_once dirname( __FILE__ ) . '/includes/attorneys-cpt.php'; // Custom Post Type Attorneys
-	//require_once dirname( __FILE__ ) . '/includes/social-share.php'; // Social Media Sharing
 
 	// Global ACF Options
 	$vanity_phone_number = get_field('vanity_phone_number', 'options');
